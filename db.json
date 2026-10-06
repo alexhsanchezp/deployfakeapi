@@ -1,0 +1,20 @@
+{
+  "usuarios": [
+    { "id": 1, "nombre": "Ana Pérez", "email": "ana@example.com", "rol": "Admin" },
+    { "id": 2, "nombre": "Carlos Gómez", "email": "carlos@example.com", "rol": "Cliente" }
+  ],
+  "productos": [
+    { "id": 1, "nombre": "Laptop Pro", "precio": 1200.50, "categoriaId": 1 },
+    { "id": 2, "nombre": "Mouse Inalámbrico", "precio": 25.99, "categoriaId": 2 }
+  ],
+  "categorias": [
+    { "id": 1, "nombre": "Computación" },
+    { "id": 2, "nombre": "Accesorios" }
+  ],
+  "pedidos": [
+    { "id": 1, "usuarioId": 2, "total": 1226.49, "estado": "Completado" }
+  ],
+  "comentarios": [
+    { "id": 1, "productoId": 1, "usuarioId": 2, "texto": "Excelente laptop, muy rápida." }
+  ]
+}
